@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-buytiti-buytitigrid {
+	border: 1px dotted #f00;
+}
+.container-buytitiGrid{
+	display: flex;
+	flex-direction: column;
+}
+
+.sub-container{
+	display: flex;
+}
+
+.my-button-class-2 {
+	background: rgb(0,172,238) !important;
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+	width: 130px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0;
+	border: none;
+}

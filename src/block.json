@@ -1,0 +1,29 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "buytiti/buytitigrid",
+	"version": "0.1.0",
+	"title": "Buytiti - Grid",
+	"category": "widgets",
+	"icon": "grid-view",
+	"description": "Este bloque añade la estructura de un contenedor grid",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "buytitigrid",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"mediaId": {
+			"type": "array",
+			"default": []
+		},
+		"mediaUrl": {
+			"type": "array",
+			"default": []
+		}
+	}
+}

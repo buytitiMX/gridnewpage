@@ -1,0 +1,415 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.wp-block-buytiti-buytitigrid {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.container-buytitiGrid{
+	display: flex;
+	flex-direction: column;
+	max-width: 100% !important;
+    align-items: center;
+}
+
+.sub-container{
+	display: flex;
+	margin-top: 1rem;
+}
+
+.image-container-0{
+	width: 20rem !important;
+    height: 20rem !important;
+	background-color: #272727 !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-0:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0, 0, 0, 0.23);
+}
+
+.my-image-class-0{
+	position: relative;
+	display: flex;
+	margin: auto;
+	margin-left: 4rem;
+    margin-top: 1.9rem;
+    width: 17rem;
+    z-index: 1000;
+	transition: 1s;
+}
+.my-image-class-0:hover{
+    transform: scale(1.2);
+}
+.my-paragraph-class-0{
+	display: flex;
+    color: white;
+    margin-top: -8rem;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.4;
+	margin-left: .4rem;
+	letter-spacing: -2px;
+}
+
+.image-container-1{
+	margin-left: 1rem;
+	width: 20rem !important;
+    height: 20rem !important;
+	background-color: #F2D920  !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-1:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(242, 217, 32, 0.19), 0 10px 10px rgba(242, 217, 32, 0.23);
+}
+
+.my-image-class-1{
+	position: relative;
+	display: flex;
+    margin: auto;
+    margin-left: 6rem;
+    margin-top: -1rem;
+	transition: 1s;
+}
+
+.my-image-class-1:hover{
+    transform: scale(1.2);
+}
+
+.my-paragraph-class-1{
+	display: flex;
+    color: white;
+    margin-top: -.1rem;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.7;
+	margin-left: .4rem;
+	letter-spacing: -2px;
+}
+
+.image-container-2{
+	width: 38rem !important;
+	height: 20rem !important;
+	margin-left: 1rem;
+	background-color: #F22920 !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-2:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(242, 41, 32, 0.19), 0 10px 10px rgba(242, 41, 32, 0.23);
+}
+
+.my-image-class-2{
+	position: relative;
+	display: flex;
+	margin: auto;
+	margin-top: -1.5rem;
+    width: 29rem;
+    margin-left: 15rem;
+	z-index: 1000;
+	transition: 1s;
+}
+
+.my-image-class-2:hover{
+    transform: scale(1.2);
+}
+
+.my-paragraph-class-2{
+	display: flex;
+    color: white;
+    margin-top: -8.5rem;
+    font-size: 2.4rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.6;
+	margin-left: .4rem;
+	letter-spacing: -2px;
+}
+
+.image-container-3{
+	width: 38rem !important;
+	height: 20rem !important;
+	margin-right: 1rem;
+	background-color: #BBBBBB !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-3:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(187, 187, 187, 0.19), 0 10px 10px rgba(187, 187, 187, 0.23);
+}
+
+.my-image-class-3{
+	position: relative;
+	display: flex;
+	margin: auto;
+	margin-top: 3.8rem;
+    width: 16rem;
+    margin-left: 21.2rem;
+    z-index: 1000;
+	transition: 1s;
+}
+
+.my-image-class-3:hover{
+    transform: scale(1.2);
+}
+
+.my-paragraph-class-3{
+	display: flex;
+    color: white;
+    margin-top: -18rem;
+    font-size: 2.4rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.6;
+	margin-left: .4rem;
+	letter-spacing: -2px;
+}
+
+.image-container-4{
+	width: 20rem !important;
+    height: 20rem !important;
+	background-color: #4DC113 !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-4:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(77, 193, 19, 0.19), 0 10px 10px rgba(77, 193, 19, 0.23);
+}
+
+.my-image-class-4{
+	position: relative;
+	display: flex;
+    margin: auto;
+	margin-top: 8.5em;
+	margin-left: 2rem;
+    width: 17rem;
+	transition: 1s;
+}
+
+.my-image-class-4:hover{
+    transform: scale(1.2);
+}
+
+.my-paragraph-class-4{
+	display: flex;
+    color: white;
+    margin-top: -18.5rem;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.6;
+    margin-left: 0.4rem;
+    letter-spacing: -2px;
+}
+
+.image-container-5{
+	margin-left: 1rem;
+	width: 20rem !important;
+    height: 20rem !important;
+	background-color: #0693e3 !important;
+	border-radius: 1.5rem !important;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container-5:hover{
+	transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(6, 147, 227, 0.19), 0 10px 10px rgba(6, 147, 227, 0.23);
+}
+
+.my-image-class-5{
+	position: relative;
+	display: flex;
+    margin: auto;
+	margin-top: 8.8rem;
+    margin-left: 4.8rem;
+	transition: 1s;
+}
+
+.my-image-class-5:hover{
+    transform: scale(1.2);
+}
+
+.my-paragraph-class-5{
+	display: flex;
+  color: white;
+  margin-top: -20.5rem;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.4;
+  margin-left: 1.5rem;
+  letter-spacing: -2px;
+}
+
+.my-button-class-4:hover,
+.my-button-class-4:focus {
+  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: #F8FBFB;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-4 {
+	color: #4DC113;
+	--hover: #4DC113;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	font-weight: bold;
+	background-color:#F8FBFB ;
+	width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-button-class-0:hover,
+.my-button-class-0:focus {
+  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: #272727;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-0 {
+	display: flex;
+    color: #F8FBFB;
+    --hover: #F8FBFB;
+    border-radius: 15px;
+    margin-left: 1rem;
+    font-weight: bold;
+    margin-top: -2.5rem;
+    background-color: #F22920;
+    width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button-class-1:hover,
+.my-button-class-1:focus {
+  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: #F8FBFB;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-1 {
+	display: flex;
+	color: #F2D920;
+	--hover: #F2D920;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	font-weight: bold;
+	margin-top: -2.5rem;
+	background-color: #F8FBFB;
+	width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button-class-2:hover,
+.my-button-class-2:focus {
+  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: #F8FBFB;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-2 {
+	display: flex;
+	color: #F22920;
+	--hover: #F22920;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	font-weight: bold;
+	margin-top: -2rem;
+	background-color: #F8FBFB;
+	width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button-class-3:hover{
+  box-shadow: inset 7em 0 0 0 var(--hover);
+  color: #F8FBFB;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-3 {
+	display: flex;
+	color:  #858585 ;
+	--hover: #BBBBBB;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	font-weight: bold;
+	margin-top: -1rem;
+	background-color: #F8FBFB;
+	width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-button-class-5:hover{
+ background-color:#0693e3  ; 
+  color: #F8FBFB;
+  border: none;
+  font-weight: bold;
+}
+  
+.my-button-class-5 {
+	display: flex;
+	color:  #0693e3 ;
+	--hover: #0693e3;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	font-weight: bold;
+	margin-top: -1rem;
+	background-color: #F8FBFB;
+	width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+	text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
